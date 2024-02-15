@@ -13,3 +13,19 @@
   height: 20vw;
 }
 
+
+hr{
+  height: 1vw;
+  background-color: rgb(245 114 0);
+  border-color: rgb(245 114 0);
+}
+
+.copyright{
+  margin-left: 30vw;
+  margin-right: 30vw;
+  color: white;
+  font-size: 2vw;
+  padding: 1vw;
+  text-align: center;
+}
+
