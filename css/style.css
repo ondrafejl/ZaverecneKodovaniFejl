@@ -642,3 +642,111 @@ hr{
 
 }
 
+/**/
+/**/
+    /*mobile LOGIN*/
+/**/
+/**/
+
+@media (max-width:750px){
+
+  .login_pc_version{
+    display: none;
+  }
+
+  .login_mobile_version{
+    height: auto;
+    background-color: white;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2vw;
+    grid-template-areas:
+    "login_logo"
+    "login_welcome_text"
+    "login_title"
+    "login_username"
+    "login_password"
+    "login_continue"
+    "login_gohome"
+    "login_decor"
+  }
+
+  .login_logo{grid-area: login_logo;}
+  .login_welcome_text{grid-area: login_welcome_text;}
+  .login_title{grid-area: login_title;}
+  .login_username{grid-area: login_username;}
+  .login_password{grid-area: login_password;}
+  .login_continue{grid-area: login_continue;}
+  .login_gohome{grid-area: login_gohome;}
+  .login_decor{grid-area: login_decor;}
+
+  .login_logo{
+    width: 100vw;
+  }
+
+  .login_logo_img{
+    width: 100vw;
+    height: 20vw;
+  }
+
+  .login_welcome_text{
+    width: 100vw;
+    margin-top: -3vw;
+  }
+
+  .login_welcome_text_img{
+    width: 100vw;
+    height: 40vw;
+  }
+
+  .login_title{
+    color: rgb(245 114 0);
+    font-size: 8vw;
+    text-align: center;
+  }
+
+  .login_username, .login_password{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1px;
+    justify-content: center;
+  }
+
+  input[type="password"], [type="name"]{
+  border: none; 
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 2vw;
+  width: 90vw;
+  padding-bottom: 2vw;
+  height: 15vw;
+  font-size: 5vw;
+  border-radius: 1vw;
+  color: black;
+  background-color: rgb(245 114 0);
+  }
+
+  .login_continue{
+  background-color:black;
+  border: none;
+  color: white;
+  font-size: 6vw;
+  width: 100vw;
+  height: 13vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  text-align: center;
+  }
+
+  .login_gohome{
+    background-color: white;
+  }
+
+  .login_gohome_img{
+    width: 40vw;
+    height: 30vw;
+    margin: 5vw 30vw 5vw 30vw;
+  }
+
+}
