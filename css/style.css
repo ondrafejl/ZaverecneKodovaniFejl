@@ -196,6 +196,29 @@ footer{
   padding: 2vw;
 }
 
+/*footer - socials*/
+.socials{
+  display: grid;
+  margin-top: 1vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  justify-items: center;;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-areas:
+  "facebook twitter linkedin pinterest youtube instagram"
+}
+
+.facebook{grid-area: facebook;}
+.twitter{grid-area: twitter;}
+.linkedin{grid-area: linkedin;}
+.pinterest{grid-area: pinterest;}
+.youtube{grid-area: youtube;}
+.instagram{grid-area: instagram;}
+
+.facebook, .twitter, .linkedin, .pinterest, .youtube, .instagram{
+  height: 6vw;
+  width: 6vw; 
+}
 hr{
   height: 1vw;
   background-color: rgb(245 114 0);
