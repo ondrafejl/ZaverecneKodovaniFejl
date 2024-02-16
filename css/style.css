@@ -130,6 +130,31 @@ main{
     border-width: 10px;
     border-color: rgb(245	114	0);
   }
+/*registration*/
+  .registration{
+    display: grid;
+    background-color: rgb(245 114 0);
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas:
+    "signup login"
+  }
+
+  .signup{grid-area: signup;}
+  .login{grid-area: login;}
+
+.signup, .login{
+  background-color: black;
+  color: white;
+  font-size: 3vw;
+  border-radius: 10vw;
+  margin: 3vw;
+  padding: 6vw 3vw 6vw 3vw;
+  text-align: center;
+}
+
+.registration_link{
+  text-decoration: none;
+}
 
 /*footer - nazev firmy*/
 
