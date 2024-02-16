@@ -52,6 +52,10 @@ li a:not(.active) {
   background-color: white;
 }
 
+.active{
+  background-color:black;
+  color:white;
+}
 
 /*main*/
 
