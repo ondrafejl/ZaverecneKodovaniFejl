@@ -14,6 +14,43 @@
 }
 
 /*navigation menu*/
+ul {
+  display: grid;
+  height: auto;
+  margin: 0px;
+  padding: 1vw 2vw 1vw;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(245    114    0);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4vw;
+  grid-template-areas:
+  "home about references contact"
+}
+
+.home{grid-area: home;}
+.about{grid-area: about;}
+.references{grid-area: references;}
+.contact{grid-area: contact;}
+
+li {
+  float: left;
+}
+
+li a {
+  font-size: 3vw;
+  border-radius: 20px;
+  padding: 14px 16px;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:not(.active) {
+  background-color: white;
+}
 
 
 /*main*/
