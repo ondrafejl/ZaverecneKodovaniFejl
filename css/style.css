@@ -749,4 +749,115 @@ hr{
     margin: 5vw 30vw 5vw 30vw;
   }
 
+  
+
+}
+/*
+    /mobile SIGNUP/
+*/
+
+@media (max-width:750px){
+
+  .signup_pc_version{
+    display: none;
+  }
+
+  .signup_mobile_version{
+    height: auto;
+    background-color: white;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2vw;
+    grid-template-areas:
+    "signup_logo"
+    "signup_welcome_text"
+    "signup_title"
+    "signup_username"
+    "signup_email"
+    "signup_phone"
+    "signup_password"
+    "signup_continue"
+    "signup_gohome"
+    "signup_decor"
+  }
+
+  .signup_logo{grid-area: signup_logo;}
+  .signup_welcome_text{grid-area: signup_welcome_text;}
+  .signup_title{grid-area: signup_title;}
+  .signup_username{grid-area: signup_username;}
+  .signup_email{grid-area: signup_email;}
+  .signup_phone{grid-area: signup_phone;}
+  .signup_password{grid-area: signup_password;}
+  .signup_continue{grid-area: signup_continue;}
+  .signup_gohome{grid-area: signup_gohome;}
+  .signup_decor{grid-area: signup_decor;}
+
+  .signup_logo{
+    width: 100vw;
+  }
+
+  .signup_logo_img{
+    width: 100vw;
+    height: 20vw;
+  }
+
+  .signup_welcome_text{
+    width: 100vw;
+    margin-top: -3vw;
+  }
+
+  .signup_welcome_text_img{
+    width: 100vw;
+    height: 40vw;
+  }
+
+  .signup_title{
+    color: rgb(245 114 0);
+    font-size: 8vw;
+    text-align: center;
+  }
+
+  .signup_username, .signup_password, .signup_email, .signup_phone{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1px;
+    justify-content: center;
+  }
+
+  input[type="password"], [type="name"], [type="e-mail"], [type="tel"]{
+  border: none; 
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 2vw;
+  width: 90vw;
+  padding-bottom: 2vw;
+  height: 15vw;
+  font-size: 5vw;
+  border-radius: 1vw;
+  color: black;
+  background-color: rgb(245 114 0);
+  }
+.signup_continue{
+  background-color:black;
+  border: none;
+  color: white;
+  font-size: 6vw;
+  width: 100vw;
+  height: 13vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  text-align: center;
+  }
+
+  .signup_gohome{
+    background-color: white;
+  }
+
+  .signup_gohome_img{
+    width: 40vw;
+    height: 30vw;
+    margin: 5vw 30vw 5vw 30vw;
+  }
+
 }
